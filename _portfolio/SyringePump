@@ -10,13 +10,17 @@ gallery:
   - image_path: assets/img/SyringePumpTip.png
    
 ---
-
 # Features
-
-* **Motor Driven:** Automated pumping for easy use.
-* **Compact:** All wiring is included in a small housing below the linear actuator. 
+* Motor Driven: Automated pumping for easy use.
+* Compact: All wiring is included in a small housing below the linear actuator. 
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4bd6edd15c0531c07?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+# Operating Instructions
+1. Open the code on a computer
+2. 
+
+# Code
+Insert code here. I do not currently have access. 
 {% include gallery caption="Syringe Pump Gallery" %}
