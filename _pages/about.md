@@ -22,4 +22,4 @@ title: "About Sophia Warren"
 
 Insert journal publications here.
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/SelfPortrait2.JPEG" alt="David Florian" style="width:200px;"/>
