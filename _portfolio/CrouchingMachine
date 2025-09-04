@@ -10,7 +10,10 @@ gallery:
     alt: "Diagram"
   - url: /assets/img/CrouchingLigamentDiagram.jpg
     image_path: assets/img/CrouchingLigamentDiagram.jpg
-    alt: "Ligament Diagram"
+    alt: "Ligament Diagram" 
+  - url: /assets/img/CrouchingCADLabel.jpg
+    image_path: assets/img/CrouchingCADLabel.jpg
+    alt: "Early CAD Diagram"
 ---
 
 Designed and implemented crouching machine and optical measuring system for biomechanics testing and 
