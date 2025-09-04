@@ -1,0 +1,19 @@
+---
+title: "Crouching Machine"
+excerpt: "Simulates knee flexion and extension for TKA implant tesing."
+header:
+  image: /assets/img/CrouchingMachinePhoto.jpg
+  teaser: /assets/img/CrouchingMachinePhoto.jpg
+gallery:
+  - url: /assets/img/CrouchingMachineDiagram.jpg
+    image_path: assets/img/CrouchingMachineDiagram.jpg
+    alt: "Diagram"
+  - url: /assets/img/CrouchingLigamentDiagram.jpg
+    image_path: assets/img/CrouchingLigamentDiagram.jpg
+    alt: "Ligament Diagram"
+---
+
+Designed and implemented crouching machine and optical measuring system for biomechanics testing and 
+analysis using CAD software and mathematics.
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
