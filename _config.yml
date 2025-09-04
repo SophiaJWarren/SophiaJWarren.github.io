@@ -84,7 +84,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+    - "https://www.linkedin.com/in/sophia-warren-947173209/"
 
 # Analytics
 analytics:
@@ -98,14 +98,14 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/SelfPortrait2.JPEG"
-  bio              : "An engineer with a passion for teaching "
+  bio              : "Blending analytical thinking with creative design to solve engineering challenges."
   location         : "Long Island, NY"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "sophiajwarren.github.io"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sophia-warren-947173209/"
 
 
@@ -116,7 +116,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "sophiajwarren.github.io"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sophia-warren-947173209/"
 
 
