@@ -13,7 +13,7 @@ feature_row:
   - image_path: assets/img/SyringePump1.jpg
     title: "Syringe Pump"
     excerpt: "DIY syringe pump capable of 1 uL flow rate up to 10mL per minute. "
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
+  - image_path: assets/img/CrouchingMachinePhoto.jpg
     alt: "Crouching Machine"
     title: "Crouching Machine"
     excerpt: "Simulates knee flexion and extension for TKA implant testing."
