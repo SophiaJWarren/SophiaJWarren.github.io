@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Sophia Warren is a 4th-year Mechanical Engineering student at Vanderbilt University."
 feature_row:
-  - image_path: assets/img/SyringePump1.jpg
+  - image_path: assets/img/SyringePump2.jpg
     title: "Syringe Pump"
     excerpt: "DIY syringe pump capable of 1 uL flow rate up to 10mL per minute. "
   - image_path: assets/img/CrouchingMachinePhoto.jpg
