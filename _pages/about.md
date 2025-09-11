@@ -7,7 +7,7 @@ title: "About Sophia Warren"
 ## Education
 
 * Vanderbilt University
-  * BE Mechanical Engineering
+  * BE Mechanical Engineering (May 2026)
   * Digital Fabrications Minor
 
 ## Technical Skills
