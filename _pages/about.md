@@ -12,15 +12,18 @@ title: "About Sophia Warren"
 
 ## Technical Skills
 
-* 3D Printing
+* Prototypin
+  * 3D Printing, Laser Cutting, Instrumentation, Welding
 * CAD design
-* Laser Cutting
+  * SolidWorks,Fusion360, AutoCAD
+* Programming
+  * Python, Arduino, MATLAB
 * Math
 * Communications
 
 ## Work Experience
 
-* NYU Langone Walker Lab - Student Intern
+* NYU Langone Walker Lab - Student Intern 2024 & 2025
 
 ## Publications 
 
