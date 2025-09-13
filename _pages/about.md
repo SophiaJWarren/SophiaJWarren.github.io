@@ -31,4 +31,4 @@ Walker PS, Hennessy D, Warren S, Bosco J. Total Knee Arthroplasty design without
 
 Kanakamedala AC, Dankert JF, Parola R, et al. Haptic feedback during virtual reality training significantly improves first-year orthopedic resident performance at Tibia Drilling: A randomized trial. Current Orthopaedic Practice. 2023;34(5):251-256. doi:10.1097/bco.0000000000001223 
 
-<img src="/assets/img/SelfPortrait2.JPEG" alt="Sophia Warren" style="width:200px;"/>
+<img src="/assets/img/Self Portrait 9_12_25.jpg" alt="Sophia Warren" style="width:200px;"/>
