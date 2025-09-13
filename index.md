@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Sophia Warren is a 4th-year student at Vanderbilt University looking to obtain a challenging position in mechanical engineering where she will apply theoretical and practical knowledge to real-world problems and develop professionally in an innovative environment. "
+excerpt: "Sophia Warren is a 4th-year Mechanical Engineering student at Vanderbilt University looking to apply theoretical and practical knowledge to real-world problems and develop professionally in an innovative environment."
 feature_row:
   - image_path: assets/img/SyringePump2.jpg
     title: "Syringe Pump"
