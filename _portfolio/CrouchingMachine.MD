@@ -14,6 +14,7 @@ gallery:
   - url: /assets/img/CrouchingCADLabel.jpg
     image_path: assets/img/CrouchingCADLabel.jpg
     alt: "Early CAD Diagram"
+---
 ## Features
 * Interchangeable TKA implants
 * 6 degrees of freedom at the knee
@@ -22,7 +23,7 @@ gallery:
 * Simulated hamstrings, gastrocnemius, and collateral ligaments
 * Femoral-tibial motion optical measuring system
 * Collateral ligament pretensioning system
----
+
 
 Designed and implemented crouching machine and optical measuring system for biomechanics testing and 
 analysis using CAD software and mathematics.
