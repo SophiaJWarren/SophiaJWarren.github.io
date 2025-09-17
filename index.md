@@ -12,11 +12,14 @@ excerpt: "Sophia Warren is a 4th-year Mechanical Engineering student at Vanderbi
 feature_row:
   - image_path: assets/img/SyringePump2.jpg
     title: "Syringe Pump"
-    excerpt: "DIY syringe pump capable of 1 uL flow rate up to 10mL per minute. "
+    excerpt: "DIY syringe pump capable of 1 uL flow rate up to 10mL per minute."
   - image_path: assets/img/CrouchingMachinePhoto.jpg
     alt: "Crouching Machine"
     title: "Crouching Machine"
     excerpt: "Simulates knee flexion and extension for TKA implant testing."
+  - image_path: assets/img/VROOM Logo (words).png
+    title: "Formula SAE Capstone Project"
+    excerpt: "Starting September 2025: Improving cooling for new radiator placement in the Vanderbilt University Formula SAE car."
 ---
 
 {% include feature_row %}
