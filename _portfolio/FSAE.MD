@@ -1,6 +1,6 @@
 ---
 title: "Ongoing Capstone: Formula SAE Cooling"
-excerpt: ": Starting September 2025: Improving cooling for new radiator placement for the Vanderbilt University Formula SAE car."
+excerpt: ": Starting September 2025: Improving cooling for new radiator placement in the Vanderbilt University Formula SAE car."
 header:
   image: /assets/img/VROOM Logo (words).png
   teaser: /assets/img/VROOM Logo (words).png
