@@ -28,4 +28,4 @@ gallery:
 Designed and implemented crouching machine and optical measuring system for biomechanics testing and 
 analysis using CAD software and mathematics.
 
-{% include gallery caption="NYU Langone Walker Lab Crouching Machine Image Gallery." %}
+{% include gallery caption="Crouching Machine Image Gallery." %}
