@@ -11,8 +11,13 @@ gallery:
    
 ---
 ## Features
-* Motor Driven: Automated pumping for easy use.
+* Automated: Controlled by Arduino with adjustable flow rate
+* Versatile: Supports multiple syringe sizes (5 mL and 20 mL).
+* Motor Driven: Stepper motor + lead screw drive for precise dispensing.
+* LED Indication: Green = running, ellow = paused, red = empty.
 * Compact: All wiring is included in a small housing below the linear actuator. 
+* Safety features: spill-resistant enclosure, finger intrusion prevention, & limit switch to prevent motor damage.
+* Easy to disassemble and maintain.
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4bd6edd15c0531c07?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
