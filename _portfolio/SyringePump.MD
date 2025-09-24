@@ -30,12 +30,12 @@ gallery:
  the Plunger Holder
  4. Double check tip is resting in the Tip Support Groove
  5. Adjust desired flow rate suing dial or enter value in Program
- 6. Automated Use
-   a. Adjust desired flow rate
-   b. Hit Red Button with silver Casing
- 7. Manual use
-   a. Hit third button for forward movement
-   b. Hit fourth button for backwards movement
+ 6. For Automated Use
+      a. Adjust desired flow rate
+      b. Hit Red Button with silver Casing
+    Manual use
+      a. Hit third button for forward movement
+      b. Hit fourth button for backwards movement
 
 ## Off-the-Shelf Parts
 
@@ -70,6 +70,6 @@ gallery:
 | Enclosure w/ Sliding Lid | 1      | PLA/ABS  | Protects electronics from spills |
 
 ## Code
- [View Arduino Code] (https://github.com/SophiaJWarren/SyringePumpProject/blob/main/Syringe_Pump_Code.ino)
+ View Arduino Code: "https://github.com/SophiaJWarren/SyringePumpProject/blob/main/Syringe_Pump_Code.ino"
 
 {% include gallery caption="Syringe Pump Gallery" %}
