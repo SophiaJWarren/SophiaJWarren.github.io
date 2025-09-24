@@ -38,22 +38,28 @@ gallery:
    b. Hit fourth button for backwards movement
 
 ## Off-the-Shelf Parts
-| Part Name              | Quantity | Source/Notes                         |
-|-------------------------|----------|--------------------------------------|
-| Arduino Uno (or Nano)   | 1        | Arduino.cc / Amazon                  |
-| NEMA 17 Stepper Motor   | 1        | Common 3D printer motor              |
-| A4988 Stepper Driver    | 1        | Amazon / Pololu                      |
-| Lead Screw + Nut (4 mm) | 1        | Matches your calculations            |
-| Linear Rod (support)    | 1        | Hardware store or 3D printer parts   |
-| Limit Switch            | 1        | Generic mechanical switch            |
-| Push Buttons            | 3        | Forward, Reverse, Start/Stop         |
-| Potentiometer           | 1        | For flow rate control                |
-| RGB LED                 | 1        | Status indication (R/Y/G)            |
-| Power Supply (12 V DC)  | 1        | For motor                            |
-| Syringe (5 mL, 20 mL)   | 2        | Lab supply or pharmacy               |
-| Screws & Nuts (M3/M4)   | Many     | Hardware store                       |
 
-## Off-the-Shelf Parts
+| Part Name            | Quantity | Function                                           | Source          |
+|----------------------|----------|----------------------------------------------------|-----------------|
+| Arduino Uno          | 1        | Microcontroller to run pump logic and interface    | Arduino.cc / Amazon |
+| A4988 Stepper Driver | 1        | Drives stepper motor with microstepping control    | Pololu / Amazon |
+| NEMA 17 Stepper Motor| 1        | Rotates lead screw to move syringe plunger         | Amazon / Adafruit |
+| 12V Power Supply     | 1        | Provides motor and electronics power               | Amazon |
+| Lead Screw (8mm) + Nut | 1     | Converts motor rotation to linear motion           | McMaster-Carr / Amazon |
+| Linear Rod (smooth)  | 1        | Prevents carriage rotation, stabilizes motion      | McMaster-Carr |
+| 608ZZ Bearings       | 2        | Supports rotation of the lead screw                | Amazon |
+| Limit Switch         | 1        | Detects empty syringe, stops motor                 | Amazon |
+| Potentiometer (dial) | 1        | Adjusts flow rate manually                         | Amazon |
+| Push Buttons         | 3        | Start/stop and manual forward/reverse control      | Amazon |
+| LED (RGB or 3-color) | 1        | Status indicator (green, yellow, red)              | Amazon |
+| Heat Shrink Tubing   | Assorted | Protects soldered joints from fluid exposure       | Amazon |
+| Jumper Wires         | Assorted | Connects Arduino to breadboard and components      | Amazon |
+| Breadboard           | 1        | Prototyping circuit connections                    | Amazon |
+| Syringes (20 mL & 5 mL) | 2    | Holds and dispenses fluid at controlled rate       | Local supplier |
+| Fasteners (M3 screws + nuts) | Assorted | Secures assembly parts together            | McMaster-Carr |
+
+## Custom 3D Printed Parts
+
 | Part Name             | Quantity | Material | Notes                            |
 |------------------------|----------|----------|----------------------------------|
 | Base Frame             | 1        | PLA/ABS  | Holds entire assembly            |
@@ -64,6 +70,6 @@ gallery:
 | Enclosure w/ Sliding Lid | 1      | PLA/ABS  | Protects electronics from spills |
 
 ## Code
- https://github.com/SophiaJWarren/SyringePumpProject/blob/main/Syringe_Pump_Code.ino
+ [View Arduino Code] (https://github.com/SophiaJWarren/SyringePumpProject/blob/main/Syringe_Pump_Code.ino)
 
 {% include gallery caption="Syringe Pump Gallery" %}
