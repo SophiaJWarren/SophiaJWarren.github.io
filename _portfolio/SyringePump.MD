@@ -31,11 +31,12 @@ gallery:
  4. Double check tip is resting in the Tip Support Groove
  5. Adjust desired flow rate suing dial or enter value in Program
  6. For Automated Use:
-   * Adjust desired flow rate
-   * Hit Red Button with silver Casing
+    a. Adjust desired flow rate
+    b. Hit Red Button with silver Casing
+
  7. For Manual use:
-   * Hit third button for forward movement
-   * Hit fourth button for backwards movement
+    a. Hit third button for forward movement
+    b. Hit fourth button for backwards movement
 
 ## Off-the-Shelf Parts
 
@@ -70,6 +71,6 @@ gallery:
 | Enclosure w/ Sliding Lid | 1      | PLA/ABS  | Protects electronics from spills |
 
 ## Code
- View Arduino Code: "https://github.com/SophiaJWarren/SyringePumpProject/blob/main/Syringe_Pump_Code.ino"
+[View Arduino Code (.ino)] (https://github.com/SophiaJWarren/SyringePumpProject/blob/main/Syringe_Pump_Code.ino)
 
 {% include gallery caption="Syringe Pump Gallery" %}
