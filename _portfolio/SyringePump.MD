@@ -31,11 +31,11 @@ gallery:
  4. Double check tip is resting in the Tip Support Groove
  5. Adjust desired flow rate suing dial or enter value in Program
  6. For Automated Use
-      a. Adjust desired flow rate
-      b. Hit Red Button with silver Casing
+  * Adjust desired flow rate
+  * Hit Red Button with silver Casing
     Manual use
-      a. Hit third button for forward movement
-      b. Hit fourth button for backwards movement
+  * Hit third button for forward movement
+  * Hit fourth button for backwards movement
 
 ## Off-the-Shelf Parts
 
