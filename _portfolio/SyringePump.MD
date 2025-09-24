@@ -37,8 +37,31 @@ gallery:
    a. Hit third button for forward movement
    b. Hit fourth button for backwards movement
 
-## Parts
-* 20mL syringe
+## Off-the-Shelf Parts
+| Part Name              | Quantity | Source/Notes                         |
+|-------------------------|----------|--------------------------------------|
+| Arduino Uno (or Nano)   | 1        | Arduino.cc / Amazon                  |
+| NEMA 17 Stepper Motor   | 1        | Common 3D printer motor              |
+| A4988 Stepper Driver    | 1        | Amazon / Pololu                      |
+| Lead Screw + Nut (4 mm) | 1        | Matches your calculations            |
+| Linear Rod (support)    | 1        | Hardware store or 3D printer parts   |
+| Limit Switch            | 1        | Generic mechanical switch            |
+| Push Buttons            | 3        | Forward, Reverse, Start/Stop         |
+| Potentiometer           | 1        | For flow rate control                |
+| RGB LED                 | 1        | Status indication (R/Y/G)            |
+| Power Supply (12 V DC)  | 1        | For motor                            |
+| Syringe (5 mL, 20 mL)   | 2        | Lab supply or pharmacy               |
+| Screws & Nuts (M3/M4)   | Many     | Hardware store                       |
+
+## Off-the-Shelf Parts
+| Part Name             | Quantity | Material | Notes                            |
+|------------------------|----------|----------|----------------------------------|
+| Base Frame             | 1        | PLA/ABS  | Holds entire assembly            |
+| Syringe Support        | 1        | PLA/ABS  | Holds syringe barrel flange      |
+| Tip Support            | 1        | PLA/ABS  | Keeps syringe tip aligned        |
+| Motor Mount            | 1        | PLA/ABS  | Holds stepper motor              |
+| Carriage / Plunger Holder | 1     | PLA/ABS  | Moves along lead screw           |
+| Enclosure w/ Sliding Lid | 1      | PLA/ABS  | Protects electronics from spills |
 
 ## Code
  1. #include <AccelStepper.h>
