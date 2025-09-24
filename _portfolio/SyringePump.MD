@@ -30,12 +30,12 @@ gallery:
  the Plunger Holder
  4. Double check tip is resting in the Tip Support Groove
  5. Adjust desired flow rate suing dial or enter value in Program
- 6. For Automated Use
-  * Adjust desired flow rate
-  * Hit Red Button with silver Casing
-    Manual use
-  * Hit third button for forward movement
-  * Hit fourth button for backwards movement
+ 6. For Automated Use:
+   * Adjust desired flow rate
+   * Hit Red Button with silver Casing
+ 7. For Manual use:
+   * Hit third button for forward movement
+   * Hit fourth button for backwards movement
 
 ## Off-the-Shelf Parts
 
