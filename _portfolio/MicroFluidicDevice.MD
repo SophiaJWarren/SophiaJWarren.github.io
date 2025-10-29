@@ -25,6 +25,7 @@ PFF microfluidic devices are increasingly used for precise particle sorting in b
   Channel heights were mathematically determined based on the width of the sections and particle diameter. Outlet channels were given wide sources to account for error in flow sorting.
 * Flow Balancing: 
   Buffer liquid had two outlet ports to compensate for the greater volume of buffer liquid than particle-carrying liquid. Particle outlet channels were long and serpentine to increase resistance and balance the flow rate between all four outlet paths. 
+  - image_path: assets/img/microfluidic sketch.png
 
 ## Future Iterating
 Give him hope.
