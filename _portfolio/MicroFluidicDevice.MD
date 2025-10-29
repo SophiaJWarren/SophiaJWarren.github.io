@@ -13,12 +13,12 @@ gallery:
    
 ---
 ## Introduction
-Pinched flow fractionation (PFF) is a microfluidic technique that continuously separates particles by size. A PFF device first channels a mixture of particles suspended in liquid into a pinched channel section. As the pinched channel opens to a wider section, the particles separate based on size due to buoyancy forces and are collected through different outlet channels placed at their calculated heights [1].
+Pinched flow fractionation (PFF) is a microfluidic technique that continuously separates particles by size. A PFF device first channels a mixture of particles suspended in liquid into a pinched channel section. As the pinched channel opens to a wider section, the particles separate based on size due to buoyancy forces and are collected through different outlet channels placed at their calculated heights [1](https://doi.org/10.1021/ac049863r).
 
-PFF microfluidic devices are increasingly used for precise particle sorting in biomedical and analytical applications where gentle and continuous separation is required. They are especially valuable for separating specific blood cell types, such as separating circulating tumor cells from white blood cells for cancer diagnosis and monitoring [2]. Unlike traditional methods like filtration or centrifugation, PFF separates particles purely through controlled laminar flow, avoiding clogging and minimizing mechanical stress on delicate cells. This hydrodynamic, label-free approach allows high-throughput, continuous sorting with high viability and precision, making it superior for biological samples.
+PFF microfluidic devices are increasingly used for precise particle sorting in biomedical and analytical applications where gentle and continuous separation is required. They are especially valuable for separating specific blood cell types, such as separating circulating tumor cells from white blood cells for cancer diagnosis and monitoring [2](https://doi.org/10.1039/c5lc01014d). Unlike traditional methods like filtration or centrifugation, PFF separates particles purely through controlled laminar flow, avoiding clogging and minimizing mechanical stress on delicate cells. This hydrodynamic, label-free approach allows high-throughput, continuous sorting with high viability and precision, making it superior for biological samples.
 
-[1] https://doi.org/10.1021/ac049863r
-[2] https://doi.org/10.1039/c5lc01014d
+[1] https://doi.org/10.1021/ac049863r [Yamada et al, 2004](https://doi.org/10.1021/ac049863r)
+[2] https://doi.org/10.1039/c5lc01014d [Pødenphant et al, 2015](https://doi.org/10.1039/c5lc01014d)
 
 ## Design
 * Symmetric: 
@@ -28,6 +28,10 @@ PFF microfluidic devices are increasingly used for precise particle sorting in b
 * Flow Balancing: 
   Buffer liquid had two outlet ports to compensate for the greater volume of buffer liquid than particle-carrying liquid. Particle outlet channels were long and serpentine to increase resistance and balance the flow rate between all four outlet paths. 
   - image_path: assets/img/microfluidic sketch.png
+
+## Testing
+The PFF devices were tested using a syringe pump to introduce the particle and buffer fluid mixture. Barbs connected to tubes were used to collect the particles and liquid from the device. In initial testing, turbulence was observed in the device, disrupting particle sorting. To combat this, a denser and more viscous fluid was added to the mixture. The particles were not perfectly neutrally buoyant in this mixture, however, causing the particles to float. 
+
 
 ## Future Iterating
 Give him hope.
