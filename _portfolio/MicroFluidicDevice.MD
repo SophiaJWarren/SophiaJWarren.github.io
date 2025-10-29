@@ -2,12 +2,14 @@
 title: "Microfluidic Device Project"
 excerpt: "3D printed & casted pinch flow fractionation microfluidic device for particle sorting."
 header:
-  image: /assets/img/SyringePump2.jpg
-  teaser: /assets/img/SyringePump2.jpg
+  image: /assets/img/MicroFluidic Device and Mold.jpg
+  teaser: /assets/img/microfluidic device.jpg
 gallery:
-  - image_path: assets/img/SyringePumpSupport.png
-  - image_path: assets/img/SyringePumpcarriage.png
-  - image_path: assets/img/SyringePumpTip.png
+  - image_path: assets/img/microfluidic device.jpg
+  - image_path: assets/img/MicroFluidic Device and Mold.jpg
+  - image_path: assets/img/microfluidic sketch.png
+  - image_path: assets/img/MicroFluidic Testing Setup.jpg
+  - image_path: assets/img/MicroFluidic Outlet Tubes.jpg
    
 ---
 ## Introduction
@@ -30,13 +32,21 @@ PFF microfluidic devices are increasingly used for precise particle sorting in b
 ## Future Iterating
 Give him hope.
 
-## Instructions
- 1. E
- 2. S
+## Important Instructions for Designing a PFF Device
+ 1. Establish particle size range
+ 2. Establish widths of the pinched section, broad section, and outlet channels. 
+  * Ensure all channel widths are at minimum 1.2x the diameter of the largest particles in use to prevent clogging. 
+  * Do not exceed 1.5x the largest particle diameter in the pinched section to prevent particle stacking.
+ 3. Calculate particle heights based on particle size range and section widths
+ 4. Determine particle outlet source size based on particle heights to facilitate proper sorting within a margin of error
+ 5. Balance flow resistance by adjusting outlet channel length and using multiple outlets if necessary.
 
 ## Discussion
-* Resin Printing: Co
-* Scale: Su
-* Particle Size limit: Su
+* Resin Printing:
+  Resin printing is capable of printing the fine features required for microfluidic devices. 
+* Scale: 
+  The PFF device can be modified to accomodate a wider range of particle sized by increasing length and width of the broad section to get clearer particle separation and increasing the width of the particle channel sources.
+* Particle Size limit:
+  The lower limit on particle size that can be sorted with PFF is determined by channel width and flow stability.
 
-{% include gallery caption="Syringe Pump Gallery" %}
+{% include gallery caption="MicroFluidic Device Gallery" %}
