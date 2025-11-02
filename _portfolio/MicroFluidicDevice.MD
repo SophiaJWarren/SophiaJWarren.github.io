@@ -10,7 +10,7 @@ gallery:
   - image_path: assets/img/microfluidic sketch.png
   - image_path: assets/img/MicroFluidic Testing Setup.jpg
   - image_path: assets/img/MicroFluidic Outlet Tubes.jpg
-   
+  - image_path: assets/img/pre_post_treatment.png  
 ---
 ## Introduction
 Pinched flow fractionation (PFF) is a microfluidic technique that continuously separates particles by size. A PFF device first channels a mixture of particles suspended in liquid into a pinched channel section. As the pinched channel opens to a wider section, the particles separate based on size due to buoyancy forces and are collected through different outlet channels placed at their calculated heights [1](https://doi.org/10.1021/ac049863r).
@@ -45,8 +45,8 @@ This PFF design was promising, providing moderately successful sorting despite i
 ## Important Instructions for Designing a PFF Device
  1. Establish particle size range
  2. Establish widths of the pinched section, broad section, and outlet channels. 
-  * Ensure all channel widths are at minimum 1.2x the diameter of the largest particles in use to prevent clogging. 
-  * Do not exceed 1.5x the largest particle diameter in the pinched section to prevent particle stacking.
+    * Ensure all channel widths are at minimum 1.2x the diameter of the largest particles in use to prevent clogging. 
+    * Do not exceed 1.5x the largest particle diameter in the pinched section to prevent particle stacking.
  3. Calculate particle heights based on particle size range and section widths
  4. Determine particle outlet source size based on particle heights to facilitate proper sorting within a margin of error
  5. Balance flow resistance by adjusting outlet channel length and using multiple outlets if necessary.
