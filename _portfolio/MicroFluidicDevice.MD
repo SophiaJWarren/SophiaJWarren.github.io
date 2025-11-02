@@ -30,11 +30,17 @@ PFF microfluidic devices are increasingly used for precise particle sorting in b
   - image_path: assets/img/microfluidic sketch.png
 
 ## Testing
-The PFF devices were tested using a syringe pump to introduce the particle and buffer fluid mixture. Barbs connected to tubes were used to collect the particles and liquid from the device. In initial testing, turbulence was observed in the device, disrupting particle sorting. To combat this, a denser and more viscous fluid was added to the mixture. The particles were not perfectly neutrally buoyant in this mixture, however, causing the particles to float. 
+The PFF devices were tested using a syringe pump to introduce the particle and buffer fluid mixture. Barbs connected to tubes were used to collect the particles and liquid from the device. In initial testing, turbulence was observed in the device, disrupting particle sorting. To combat this, a denser and more viscous fluid was added to the mixture. The particles were not perfectly neutrally buoyant in this mixture, however, causing the particles to float. The tubes connected to the outlet barbs had variations in pressure head, causing varying resistances at each outlet and disrupting flow.
 
+This particular PFF device was only tested briefly due to time and resource limitations. It was tested without barbs and with few particles in the mixture. Sorting was moderately successful given these restrictions, outperforming many of the other designs tested.
+*  Wide outlet channel sources provided appropriate tolerance, allowing for better sorting given imperfect particle flow paths.
+*  The large width of the broad section created greater space between the paths of the particles, providing better sorting. 
 
 ## Future Iterating
-Give him hope.
+This PFF design was promising, providing moderately successful sorting despite imperfect testing conditions. Some potential improvements for future testing are listed below:
+*  The original buffer fluid should be used at a reduced flow velocity to prevent turbulence without altering particle buoyancy.
+*  A helping hand tool (a tool with multiple adjustable arms with gripping mechanisms) could be used to provide stable support to the outlet tubes so their heights can be precisely adjusted to remove the pressure head resistance obstacle.
+*  Programmable syringe pumps could be used at the outlets to provide stable flow rates. The final project of a prerequisite class is to make such syringe pumps, so this could be a collaborative effort between DF 2100 and CHBE 4200 students. 
 
 ## Important Instructions for Designing a PFF Device
  1. Establish particle size range
