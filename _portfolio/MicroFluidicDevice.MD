@@ -28,6 +28,9 @@ PFF microfluidic devices are increasingly used for precise particle sorting in b
 * Flow Balancing: 
   Buffer liquid had two outlet ports to compensate for the greater volume of buffer liquid than particle-carrying liquid. Particle outlet channels were long and serpentine to increase resistance and balance the flow rate between all four outlet paths. 
   - image_path: assets/img/microfluidic sketch.png
+<p align="center">
+  <img src="assets/img/microfluidic sketch.png" alt="PFF Device Sketch" width="400">
+</p>
 
 ## Testing
 The PFF devices were tested using a syringe pump to introduce the particle and buffer fluid mixture. Barbs connected to tubes were used to collect the particles and liquid from the device. In initial testing, turbulence was observed in the device, disrupting particle sorting. To combat this, a denser and more viscous fluid was added to the mixture. The particles were not perfectly neutrally buoyant in this mixture, however, causing the particles to float. The tubes connected to the outlet barbs had variations in pressure head, causing varying resistances at each outlet and disrupting flow.
