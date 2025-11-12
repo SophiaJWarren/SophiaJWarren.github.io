@@ -32,7 +32,7 @@ Rather than a traditional squeeze mechanism, a trigger-pull mechanism was used t
 * Trigger:
   The trigger was rigid (PLA) and designed to comfortably fit the index finger (~20 mm diameter). 
 * Jaws:
-  The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU95.
+  The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU 95A.
 
 ## Iterating
 The first iteration of the pliers was largely successful, but the interlocking joints were not functional and required glue. The interlocking joints were too small very fine details and a tolerance of 0.2 mm was used. This resulted in very small and loose joints that did not hold the pliers together without glue. When fully glued together, Iteration 1 worked perfectly, indicating the overall design was promising.
@@ -41,21 +41,4 @@ The second iteration aimed to fix the interlocking problem. The interlocking joi
 
 The third iteration was the final version of the pliers. The joints on the trigger were made as large as possible without sacrificing the integrity of the trigger. The handle joints on Iteration 2 were ideal, so the same tolerance of 0.05 mm was used in printing. Iteration 3 worked perfectly, with stable joints holding all parts together. It was able to pick up resistors and other small items easily and repeatedly without fail. 
 
-## Important Instructions for Designing a PFF Device
- 1. Establish particle size range
- 2. Establish widths of the pinched section, broad section, and outlet channels. 
-    * Ensure all channel widths are at minimum 1.2x the diameter of the largest particles in use to prevent clogging. 
-    * Do not exceed 1.5x the largest particle diameter in the pinched section to prevent particle stacking.
- 3. Calculate particle heights based on particle size range and section widths
- 4. Determine particle outlet source size based on particle heights to facilitate proper sorting within a margin of error
- 5. Balance flow resistance by adjusting outlet channel length and using multiple outlets if necessary.
-
-## Discussion
-* Resin Printing:
-  Resin printing is capable of printing the fine features required for microfluidic devices. 
-* Scale: 
-  The PFF device can be modified to accomodate a wider range of particle sized by increasing length and width of the broad section to get clearer particle separation and increasing the width of the particle channel sources.
-* Particle Size limit:
-  The lower limit on particle size that can be sorted with PFF is determined by channel width and flow stability.
-
-{% include gallery caption="MicroFluidic Device Gallery" %}
+{% include gallery caption="PIP Pliers Gallery" %}
