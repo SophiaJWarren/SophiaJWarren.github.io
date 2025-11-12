@@ -31,11 +31,11 @@ Rather than a traditional squeeze mechanism, the pliers employ a trigger-pull me
 ### CAD Modelling
 The pliers were designed in Fusion 360 using parameterized dimensions for efficient iteration. The pliers are symmetrical, making mirroring an effective modeling tool. Half of the design was sketched, and then the 3 parts were extruded as independent bodies so they could be printed individually in the correct material. The Fusion 360 mirror function does not recognize parameters when used in sketches (2D), so the parts were mirrored in 3D to complete the pliers. 
 ### Part Specifications
-* Handle:
+#### Handle:
   The handle was rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and length of ~63 mm. The handle has a round bottom to avoid sharp corners poking the user.
-* Trigger:
+#### Trigger:
   The trigger was rigid (PLA) and designed to comfortably fit the index finger (~20 mm diameter). 
-* Jaws:
+#### Jaws:
   The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU 95A.
 
 ## Iterating
