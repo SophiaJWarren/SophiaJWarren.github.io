@@ -25,8 +25,12 @@ Some examples of PIP include
 ## Project Description
 This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc,) and able to pick up and move a through-hole resistor in testing.
 
-## CAD Design
-Rather than a traditional squeeze mechanism, a trigger-pull mechanism was used to close the jaws of the pliers because a trigger-pull motion can be easier to repeat continuously than a full hand-squeeze. The pliers were designed in Fusion 360. Half of the design was sketched, and then the 3 parts were extruded as independent bodies and mirrored in 3D to complete the pliers. The part details are outlined below. 
+## Design 
+### Concept Overview
+Rather than a traditional squeeze mechanism, the pliers employ a trigger-pull mechanism to close the jaws of the pliers because a single finger motion can be easier to repeat continuously than a full hand-squeeze. A rigid handle supports the pliers with a rigid trigger suspended in the center. Flexible jaws attach the handle and trigger such that when the trigger is pulled, the nose of the jaws bend inward and grip the item. Specific part designs are outlined in the Part Specifications section.
+### CAD Modelling
+The pliers were designed in Fusion 360 using parameterized dimensions for efficient iteration. The pliers are symmetrical, making mirroring an effective modeling tool. Half of the design was sketched, and then the 3 parts were extruded as independent bodies so they could be printed individually in the correct material. The Fusion 360 mirror function does not recognize parameters when used in sketches (2D), so the parts were mirrored in 3D to complete the pliers. 
+### Part Specifications
 * Handle:
   The handle was rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and length of ~63 mm. The handle has a round bottom to avoid sharp corners poking the user.
 * Trigger:
