@@ -8,6 +8,7 @@ gallery:
   - image_path: assets/img/Plier Iterations.jpg
   - image_path: assets/img/Pliers GIF.GIF
   - image_path: assets/img/Pliers drawing.png 
+  - image_path: assets/img/Pliers CAD image.png
 ---
 ## Print-in-Place 
 Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
