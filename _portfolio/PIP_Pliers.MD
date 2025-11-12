@@ -10,7 +10,7 @@ gallery:
   - image_path: assets/img/Pliers drawing.png 
   - image_path: assets/img/Pliers CAD image.png
 ---
-# Print-in-Place 
+## Print-in-Place 
 Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
 
 PIP success depends on pairing materials that stick together just enough to survive printing but still move freely afterward. Common pairings include:
@@ -23,25 +23,25 @@ Some examples of PIP include
 * Prosthetic hands and grippers where fully printed hinges reduce cost and assembly time.
 * Robotic linkages and valves that use printed flexures for repeatable motion.
 
-# Project Description
+## Project Description
 This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc,) and able to pick up and move a through-hole resistor in testing.
 
-# Design 
-## Concept Overview
+## Design 
+### Concept Overview
 Rather than a traditional squeeze mechanism, the pliers employ a trigger-pull mechanism to close the jaws of the pliers because a single finger motion can be easier to repeat continuously than a full hand-squeeze. A rigid handle supports the pliers with a rigid trigger suspended in the center. Flexible jaws attach the handle and trigger such that when the trigger is pulled, the nose of the jaws bend inward and grip the item. Specific part designs are outlined in the Part Details section.
-## CAD Modelling
+### CAD Modelling
 The pliers were designed in Fusion 360 using parameterized dimensions for efficient iteration. The pliers are symmetrical, making mirroring an effective modeling tool. Half of the design was sketched, and then the 3 parts were extruded as independent bodies so they could be printed individually in the correct material. The Fusion 360 mirror function does not recognize parameters when used in sketches (2D), so the parts were mirrored in 3D to complete the pliers. There is a total of 3 part types (handle, trigger, & jaw), creating a total of 4 bodies (handle, trigger, & 2 jaws). The pliers were 10 mm thick in each part. 
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ac51f917b821705a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-## Printing Settings
+### Printing Settings
 The pliers used two materials: PLA for the handle and trigger, and TPU 95A for the jaws. The PLA parts were printed with a 0.4 mm nozzle and the TPU parts were printed with a 0.6 mm nozzle. This design did contain a spring grid component, so all other settings were left to default.
-## Part Details
-#### Handle:
+### Part Details
+##### Handle:
 The handle is rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and a length of ~63 mm. The handle is U-shaped, with a round bottom to avoid sharp corners poking the user. The tips of the handles have the dovetails to interlock with the jaws.
-#### Trigger:
+##### Trigger:
 The trigger is rigid (PLA) and designed to comfortably fit the index finger (~20 mm diameter). The trigger is circular with a thickness of ~4 mm. The top of the trigger has two dovetails, one for each jaw. There is a ~10 mm gap between where the two jaws attach to allow the jaws to pinch at the nose without colliding elsewhere. 
-#### Jaws:
+##### Jaws:
 The jaws are flexible (TPU 95 A) and attached to the tips of the handle and the center of the trigger. They are at a 15-degree angle from the center axis of the handles and are ~10 mm apart at the base (where they attach to the trigger) so the nose closes with only ~10 mm of motion at the trigger. They are V-shaped with each side ~3.5 mm thick. There are three small stripes of material spaced out (~0.08 mm thick, ~10 mm apart) to prevent deformation, giving the jaws an A-shape. 
 
 ## Iterating
