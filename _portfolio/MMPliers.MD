@@ -1,6 +1,6 @@
 ---
-title: "Microfluidic Device Project"
-excerpt: "3D printed & casted pinch flow fractionation microfluidic device for particle sorting."
+title: "PIP Plier Project"
+excerpt: "Print-in-place needle-nose pliers for grabbing small objects."
 header:
   image: /assets/img/MicroFluidic Device and Mold.jpg
   teaser: /assets/img/microfluidic device.jpg
@@ -12,13 +12,16 @@ gallery:
   - image_path: assets/img/MicroFluidic Outlet Tubes.jpg
   - image_path: assets/img/pre_post_treatment.png  
 ---
-## Introduction
-Pinched flow fractionation (PFF) is a microfluidic technique that continuously separates particles by size. A PFF device first channels a mixture of particles suspended in liquid into a pinched channel section. As the pinched channel opens to a wider section, the particles separate based on size due to buoyancy forces and are collected through different outlet channels placed at their calculated heights [1](https://doi.org/10.1021/ac049863r).
+## Print-in-Place 
+Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
 
-PFF microfluidic devices are increasingly used for precise particle sorting in biomedical and analytical applications where gentle and continuous separation is required. They are especially valuable for separating specific blood cell types, such as separating circulating tumor cells from white blood cells for cancer diagnosis and monitoring [2](https://doi.org/10.1039/c5lc01014d). Unlike traditional methods like filtration or centrifugation, PFF separates particles purely through controlled laminar flow, avoiding clogging and minimizing mechanical stress on delicate cells. This hydrodynamic, label-free approach allows high-throughput, continuous sorting with high viability and precision, making it superior for biological samples.
+Some examples of PIP include 
+* Mechanical toys and fidget mechanisms that print in one piece and articulate immediately.
+* Prosthetic hands and grippers where fully printed hinges reduce cost and assembly time.
+* Robotic linkages and valves that use printed flexures for repeatable motion.
 
-[1] https://doi.org/10.1021/ac049863r [Yamada et al, 2004](https://doi.org/10.1021/ac049863r)
-[2] https://doi.org/10.1039/c5lc01014d [Pødenphant et al, 2015](https://doi.org/10.1039/c5lc01014d)
+## Project Description
+This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. A built-in flexible spring lets the handles automatically return to the open position when released, mimicking the snap of real pliers.
 
 ## Design
 * Symmetric: 
