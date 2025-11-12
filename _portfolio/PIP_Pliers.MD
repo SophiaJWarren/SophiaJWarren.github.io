@@ -26,9 +26,9 @@ Some examples of PIP include
 * Robotic linkages and valves that use printed flexures for repeatable motion.
 
 ## Project Description
-This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. A built-in flexible spring lets the handles automatically return to the open position when released, mimicking the snap of real pliers.
+This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be able to pick up a through-hole resistor and move it in testing.
 
-## CAD Design & Iteration
+## CAD Design
 * Trigger: 
   Rather than a traditional squeeze mechanism, the a trigger-pull mechnaism was used to close the jaws of the pliers.
 * Handle:
@@ -38,7 +38,7 @@ This project explores this idea by designing needle-nose pliers that can grip an
 * Jaws:
   The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU95.
 
-## Future Iterating
+## Iterating
 This PFF design was promising, providing moderately successful sorting despite imperfect testing conditions. Some potential improvements for future testing are listed below:
 *  The original buffer fluid should be used at a reduced flow velocity to prevent turbulence without altering particle buoyancy.
 *  A helping hand tool (a tool with multiple adjustable arms with gripping mechanisms) could be used to provide stable support to the outlet tubes so their heights can be precisely adjusted to remove the pressure head resistance obstacle.
