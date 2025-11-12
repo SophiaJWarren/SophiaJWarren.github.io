@@ -23,23 +23,23 @@ Some examples of PIP include
 * Robotic linkages and valves that use printed flexures for repeatable motion.
 
 ## Project Description
-This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be able to pick up a through-hole resistor and move it in testing.
+This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc,) and able to pick up and move a through-hole resistor in testing.
 
 ## CAD Design
-The pliers were designed using Fusion 360 software. Half of the design was sketched and then the 3 parts were extruded as independent bodies and mirroed in 3d to complete the pliers. 
-* Trigger: 
-  Rather than a traditional squeeze mechanism, a trigger-pull mechanism was used to close the jaws of the pliers.
+Rather than a traditional squeeze mechanism, a trigger-pull mechanism was used to close the jaws of the pliers because a trigger-pull motion can be easier to repeat continuously than a full hand-squeeze. The pliers were designed in Fusion 360. Half of the design was sketched, and then the 3 parts were extruded as independent bodies and mirrored in 3D to complete the pliers. The part details are outlined below. 
 * Handle:
-  The handle was rigid and designed to be compact, fitting comfortably in hand. It was printed from PLA.
+  The handle was rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and length of ~63 mm. The handle has a round bottom to avoid sharp corners poking the user.
 * Trigger:
-  The trigger was rigid and designed to comfortably fit the index finger. It was printed from PLA. 
+  The trigger was rigid (PLA) and designed to comfortably fit the index finger (~20 mm diameter). 
 * Jaws:
   The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU95.
 
 ## Iterating
-The first iteration of the pliers were largely successfull, however the interlocking joints were too small and the details were too fine to be fully function. When the joints were glued, the design worked perfectly.
+The first iteration of the pliers was largely successful, but the interlocking joints were not functional and required glue. The interlocking joints were too small very fine details and a tolerance of 0.2 mm was used. This resulted in very small and loose joints that did not hold the pliers together without glue. When fully glued together, Iteration 1 worked perfectly, indicating the overall design was promising.
 
-The second iteration aimed to fix this problem. The interlocking joints were made larger by extending the joints along the side of the handle. 
+The second iteration aimed to fix the interlocking problem. The interlocking joints were made larger by extending the jaws along the side of the handle so the joints could be larger and more could be used in multiple locations and directions. The joints on the triggers were only changed slightly due to the trigger's small size. A tolerance of only 0.05 mm was used. After printing, Iteration 2 had strong joints to the handle that held the jaws firmly as desired. The trigger joints were improved from Iteration 1, but were still not perfectly stable. During use, one of the jaws would pop out of the trigger after a few pulls when not handled carefully. 
+
+The third iteration was the final version of the pliers. The joints on the trigger were made as large as possible without sacrificing the integrity of the trigger. The handle joints on Iteration 2 were ideal, so the same tolerance of 0.05 mm was used in printing. Iteration 3 worked perfectly, with stable joints holding all parts together. It was able to pick up resistors and other small items easily and repeatedly without fail. 
 
 ## Important Instructions for Designing a PFF Device
  1. Establish particle size range
