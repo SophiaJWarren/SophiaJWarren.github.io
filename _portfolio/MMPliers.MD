@@ -15,6 +15,11 @@ gallery:
 ## Print-in-Place 
 Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
 
+PIP success depends on pairing materials that stick together just enough to survive printing but still move freely afterward. Common pairings include:
+* PLA + TPU (95A) – strong handles with flexible hinges or springs.
+* PETG + TPU – higher temperature resistance, good for functional parts.
+* Nylon + TPU – very durable but can be tricky to bond cleanly.
+
 Some examples of PIP include 
 * Mechanical toys and fidget mechanisms that print in one piece and articulate immediately.
 * Prosthetic hands and grippers where fully printed hinges reduce cost and assembly time.
@@ -23,26 +28,15 @@ Some examples of PIP include
 ## Project Description
 This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. A built-in flexible spring lets the handles automatically return to the open position when released, mimicking the snap of real pliers.
 
-## Design
-* Symmetric: 
-  The broad channel widens evenly on both sides after the pinched channel
-* Outlet boundaries: 
-  Channel heights were mathematically determined based on the width of the sections and particle diameter. Outlet channels were given wide sources to account for error in flow sorting.
-* Flow Balancing: 
-  Buffer liquid had two outlet ports to compensate for the greater volume of buffer liquid than particle-carrying liquid. Particle outlet channels were long and serpentine to increase resistance and balance the flow rate between all four outlet paths. 
-  - image_path: assets/img/microfluidic sketch.png
-<p align="center">
-  <img src="../assets/img/microfluidic sketch.png" alt="PFF Device Sketch" width="400">
-</p>
-
-## Testing
-The PFF devices were tested using a syringe pump to introduce the particle and buffer fluid mixture. Barbs connected to tubes were used to collect the particles and liquid from the device. In initial testing, turbulence was observed in the device, disrupting particle sorting. To combat this, a denser and more viscous fluid was added to the mixture. The particles were not perfectly neutrally buoyant in this mixture, however, causing the particles to float. The tubes connected to the outlet barbs had variations in pressure head, causing varying resistances at each outlet and disrupting flow.
-
-![MicroFluidic Testing Setup](../assets/img/MicroFluidic Testing Setup.jpg) ![Outlet Tubes](../assets/img/MicroFluidic Outlet Tubes.jpg)
-
-This particular PFF device was only tested briefly due to time and resource limitations. It was tested without barbs and with few particles in the mixture. Sorting was moderately successful given these restrictions, outperforming many of the other designs tested.
-*  Wide outlet channel sources provided appropriate tolerance, allowing for better sorting given imperfect particle flow paths.
-*  The large width of the broad section created greater space between the paths of the particles, providing better sorting. 
+## CAD Design & Iteration
+* Trigger: 
+  Rather than a traditional squeeze mechanism, the a trigger-pull mechnaism was used to close the jaws of the pliers.
+* Handle:
+  The handle was rigid and designed to be compact, fitting comfortably in hand. It was printed from PLA.
+* Trigger:
+  The trigger was rigid and designed to comfortably fit the index finger. It was printed from PLA. 
+* Jaws:
+  The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU95.
 
 ## Future Iterating
 This PFF design was promising, providing moderately successful sorting despite imperfect testing conditions. Some potential improvements for future testing are listed below:
