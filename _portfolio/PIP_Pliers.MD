@@ -2,15 +2,12 @@
 title: "PIP Plier Project"
 excerpt: "Print-in-place needle-nose pliers for grabbing small objects."
 header:
-  image: /assets/img/MicroFluidic Device and Mold.jpg
-  teaser: /assets/img/microfluidic device.jpg
+  image: /assets/img/Plier Iterations.jpg
+  teaser: /assets/img/Plier Iterations.jpg
 gallery:
-  - image_path: assets/img/microfluidic device.jpg
-  - image_path: assets/img/MicroFluidic Device and Mold.jpg
-  - image_path: assets/img/microfluidic sketch.png
-  - image_path: assets/img/MicroFluidic Testing Setup.jpg
-  - image_path: assets/img/MicroFluidic Outlet Tubes.jpg
-  - image_path: assets/img/pre_post_treatment.png  
+  - image_path: assets/img/Plier Iterations.jpg
+  - image_path: assets/img/Pliers GIF.GIF
+  - image_path: assets/img/Pliers drawing.png 
 ---
 ## Print-in-Place 
 Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
@@ -29,8 +26,9 @@ Some examples of PIP include
 This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be able to pick up a through-hole resistor and move it in testing.
 
 ## CAD Design
+The pliers were designed using Fusion 360 software. Half of the design was sketched and then the 3 parts were extruded as independent bodies and mirroed in 3d to complete the pliers. 
 * Trigger: 
-  Rather than a traditional squeeze mechanism, the a trigger-pull mechnaism was used to close the jaws of the pliers.
+  Rather than a traditional squeeze mechanism, a trigger-pull mechanism was used to close the jaws of the pliers.
 * Handle:
   The handle was rigid and designed to be compact, fitting comfortably in hand. It was printed from PLA.
 * Trigger:
@@ -39,10 +37,9 @@ This project explores this idea by designing needle-nose pliers that can grip an
   The jaws were flexible and attached to the tips of the handle and the center of the trigger. They were printed from TPU95.
 
 ## Iterating
-This PFF design was promising, providing moderately successful sorting despite imperfect testing conditions. Some potential improvements for future testing are listed below:
-*  The original buffer fluid should be used at a reduced flow velocity to prevent turbulence without altering particle buoyancy.
-*  A helping hand tool (a tool with multiple adjustable arms with gripping mechanisms) could be used to provide stable support to the outlet tubes so their heights can be precisely adjusted to remove the pressure head resistance obstacle.
-*  Programmable syringe pumps could be used at the outlets to provide stable flow rates. The final project of a prerequisite class is to make such syringe pumps, so this could be a collaborative effort between DF 2100 and CHBE 4200 students. 
+The first iteration of the pliers were largely successfull, however the interlocking joints were too small and the details were too fine to be fully function. When the joints were glued, the design worked perfectly.
+
+The second iteration aimed to fix this problem. The interlocking joints were made larger by extending the joints along the side of the handle. 
 
 ## Important Instructions for Designing a PFF Device
  1. Establish particle size range
