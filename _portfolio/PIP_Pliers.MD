@@ -44,6 +44,8 @@ The trigger is rigid (PLA) and designed to comfortably fit the index finger (~20
 ###### Jaws:
 The jaws are flexible (TPU 95 A) and attached to the tips of the handle and the center of the trigger. They are at a 15-degree angle from the center axis of the handles and are ~10 mm apart at the base (where they attach to the trigger) so the nose closes with only ~10 mm of motion at the trigger. They are V-shaped with each side ~3.5 mm thick. There are three small stripes of material spaced out (~0.08 mm thick, ~10 mm apart) to prevent deformation, giving the jaws an A-shape. 
 
+![Plier Dimensions](assets/img/Pliers drawing.png)
+
 ## Iterating
 The first iteration of the pliers was largely successful, but the dovetail joints were not functional and required glue. The dovetails were too small very fine details and a tolerance of 0.2 mm was used. This resulted in very small and loose joints that did not hold the pliers together without glue. When fully glued together, Iteration 1 worked perfectly, indicating the overall design was promising.
 
