@@ -27,7 +27,7 @@ Some examples of PIP include
 This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc,) and able to pick up and move a through-hole resistor in testing.
 
 <p align="center">
-  <img src="../assets/img/Pliers GIF.GIF" alt="Working Pliers" width="400">
+  <img src="/assets/img/Pliers GIF.GIF" alt="Working Pliers" width="400">
 </p>
 
 ## Design 
@@ -49,7 +49,7 @@ The trigger is rigid (PLA) and designed to comfortably fit the index finger (~20
 The jaws are flexible (TPU 95 A) and attached to the tips of the handle and the center of the trigger. They are at a 15-degree angle from the center axis of the handles and are ~10 mm apart at the base (where they attach to the trigger) so the nose closes with only ~10 mm of motion at the trigger. They are V-shaped with each side ~3.5 mm thick. There are three small stripes of material spaced out (~0.08 mm thick, ~10 mm apart) to prevent deformation, giving the jaws an A-shape. 
 
 <p align="center">
-  <img src="../assets/img/Pliers drawing.png" alt="Plier Dimensions" width="400">
+  <img src="/assets/img/Pliers drawing.png" alt="Plier Dimensions" width="400">
 </p>
 
 ## Iterating
