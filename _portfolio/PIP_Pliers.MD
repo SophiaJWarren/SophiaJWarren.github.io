@@ -54,7 +54,7 @@ The jaws are flexible (TPU 95 A) and attached to the tips of the handle and the 
 
 ## Iterating
 <p align="center">
-  <img src="../assets/img/Plier Iterations.jpg" alt="Plier Iterations" width="400">
+  <img src="/assets/img/Plier Iterations.jpg" alt="Plier Iterations" width="400">
 </p>
 The first iteration (left) of the pliers was largely successful, but the dovetail joints were not functional and required glue. The dovetails were too small very fine details and a tolerance of 0.2 mm was used. This resulted in very small and loose joints that did not hold the pliers together without glue. When fully glued together, Iteration 1 worked perfectly, indicating the overall design was promising.
 
