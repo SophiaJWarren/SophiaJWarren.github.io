@@ -39,9 +39,9 @@ The pliers used two materials: PLA for the handle and trigger, and TPU 95A for t
 ### Part Details
 ###### Handle:
 The handle is rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and a length of ~63 mm. The handle is U-shaped, with a round bottom to avoid sharp corners poking the user. The tips of the handles have the dovetails to interlock with the jaws.
-###### Trigger:
+####### Trigger:
 The trigger is rigid (PLA) and designed to comfortably fit the index finger (~20 mm diameter). The trigger is circular with a thickness of ~4 mm. The top of the trigger has two dovetails, one for each jaw. There is a ~10 mm gap between where the two jaws attach to allow the jaws to pinch at the nose without colliding elsewhere. 
-###### Jaws:
+####### Jaws:
 The jaws are flexible (TPU 95 A) and attached to the tips of the handle and the center of the trigger. They are at a 15-degree angle from the center axis of the handles and are ~10 mm apart at the base (where they attach to the trigger) so the nose closes with only ~10 mm of motion at the trigger. They are V-shaped with each side ~3.5 mm thick. There are three small stripes of material spaced out (~0.08 mm thick, ~10 mm apart) to prevent deformation, giving the jaws an A-shape. 
 
 ![Plier Dimensions](assets/img/Pliers drawing.png)
