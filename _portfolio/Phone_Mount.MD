@@ -2,10 +2,10 @@
 title: "Top-Down Modelling Phone Mount Project"
 excerpt: "Print-in-place needle-nose pliers for grabbing small objects."
 header:
-  image: /assets/img/phone holder CAD.png
-  teaser: /assets/img/phone holder CAD.png
+  image: /assets/img/Phone Mount CAD.png
+  teaser: /assets/img/Phone Mount CAD.png
 gallery:
-  - image_path: assets/img/phone holder CAD.png
+  - image_path: assets/img/Phone Mount CAD.png
   - image_path: assets/img/phone holder CAD iterations.png
 ---
 ## Print-in-Place 
