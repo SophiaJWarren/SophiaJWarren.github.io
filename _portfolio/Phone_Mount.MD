@@ -6,7 +6,8 @@ header:
   teaser: /assets/img/Phone Mount CAD.png
 gallery:
   - image_path: assets/img/Phone Mount CAD.png
-  - image_path: assets/img/phone holder CAD iterations.png
+  - image_path: assets/img/Phone Mount CAD Iterations.png
+
 ---
 ## Print-in-Place 
 Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
