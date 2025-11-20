@@ -24,12 +24,12 @@ Some examples of PIP include
 * Robotic linkages and valves that use printed flexures for repeatable motion.
 
 ## Project Description
-This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc,) and able to pick up and move a through-hole resistor in testing.
+This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc.) and able to pick up and move a through-hole resistor in testing.
 
 
 ## Design 
 ### Concept Overview
-Rather than a traditional squeeze mechanism, the pliers employ a trigger-pull mechanism to close the jaws of the pliers because a single finger motion can be easier to repeat continuously than a full hand-squeeze. A rigid handle supports the pliers with a rigid trigger suspended in the center. Flexible jaws attach the handle and trigger such that when the trigger is pulled, the nose of the jaws bend inward and grip the item. Specific part designs are outlined in the Part Details section.
+Rather than a traditional squeeze mechanism, the pliers employ a trigger-pull mechanism to close the jaws of the pliers because a single finger motion can be easier to repeat continuously than a full hand-squeeze. A rigid handle supports the pliers with a rigid trigger suspended in the center. Flexible jaws connect the handle and trigger such that when the trigger is pulled, the tips/noses of the jaws bend inward and grip the item. Specific part designs are outlined in the Part Details section.
 <p align="center">
   <img src="/assets/img/Pliers GIF.GIF" alt="Working Pliers" width="400">
 </p>
@@ -39,7 +39,7 @@ The pliers were designed in Fusion 360 using parameterized dimensions for effici
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ac51f917b821705a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Printing Settings
-The pliers used two materials: PLA for the handle and trigger, and TPU 95A for the jaws. The PLA parts were printed with a 0.4 mm nozzle and the TPU parts were printed with a 0.6 mm nozzle. This design did contain a spring grid component, so all other settings were left to default.
+The pliers used two materials: PLA for the handle and trigger, and TPU 95A for the jaws. The PLA parts were printed with a 0.4 mm nozzle, and the TPU parts were printed with a 0.6 mm nozzle. This design did not contain a spring grid component, so all other settings were left to default.
 ### Part Details
 ###### Handle:
 The handle is rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and a length of ~63 mm. The handle is U-shaped, with a round bottom to avoid sharp corners poking the user. The tips of the handles have the dovetails to interlock with the jaws.
