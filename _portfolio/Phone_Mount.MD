@@ -1,13 +1,13 @@
 ---
 title: "Top-Down Modelling Phone Mount Project"
-excerpt: "Print-in-place needle-nose pliers for grabbing small objects."
+excerpt: "Rotating phone mount with modular attachment created using top-down modeling"
 header:
   image: /assets/img/Phone Mount Final CAD Views.png
   teaser: /assets/img/Phone Mount Final CAD Views.png
 gallery:
   - image_path: assets/img/Phone Mount Final CAD Views.png
-  - image_path: assets/img/Phone Mount CAD Iterations.png
-
+  - image_path: assets/img/Phone Mount CAD Iterations.png 
+  - image_path: assets/img/Phone Mount Use.gif
 ---
 ## Print-in-Place 
 Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
