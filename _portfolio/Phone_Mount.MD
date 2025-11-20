@@ -61,4 +61,36 @@ The second iteration (center) aimed to fix the interlocking problem. The dovetai
 
 The third iteration (right) was the final version of the pliers. The dovetails on the trigger were made as large as possible without sacrificing the integrity of the trigger. The handle dovetails on Iteration 2 were ideal, so the same tolerance of 0.05 mm was used in printing. Iteration 3 worked perfectly, with stable joints holding all parts together. It was able to pick up resistors and other small items easily and repeatedly without fail. 
 
+## Off-the-Shelf Parts
+
+| Part Name            | Quantity | Function                                           | Source          |
+|----------------------|----------|----------------------------------------------------|-----------------|
+| Arduino Uno          | 1        | Microcontroller to run pump logic and interface    | Arduino.cc / Amazon |
+| A4988 Stepper Driver | 1        | Drives stepper motor with microstepping control    | Pololu / Amazon |
+| NEMA 17 Stepper Motor| 1        | Rotates lead screw to move syringe plunger         | Amazon / Adafruit |
+| 12V Power Supply     | 1        | Provides motor and electronics power               | Amazon |
+| Lead Screw (8mm) + Nut | 1     | Converts motor rotation to linear motion           | McMaster-Carr / Amazon |
+| Linear Rod (smooth)  | 1        | Prevents carriage rotation, stabilizes motion      | McMaster-Carr |
+| 608ZZ Bearings       | 2        | Supports rotation of the lead screw                | Amazon |
+| Limit Switch         | 1        | Detects empty syringe, stops motor                 | Amazon |
+| Potentiometer (dial) | 1        | Adjusts flow rate manually                         | Amazon |
+| Push Buttons         | 3        | Start/stop and manual forward/reverse control      | Amazon |
+| LED (RGB or 3-color) | 1        | Status indicator (green, yellow, red)              | Amazon |
+| Heat Shrink Tubing   | Assorted | Protects soldered joints from fluid exposure       | Amazon |
+| Jumper Wires         | Assorted | Connects Arduino to breadboard and components      | Amazon |
+| Breadboard           | 1        | Prototyping circuit connections                    | Amazon |
+| Syringes (20 mL & 5 mL) | 2    | Holds and dispenses fluid at controlled rate       | Local supplier |
+| Fasteners (M3 screws + nuts) | Assorted | Secures assembly parts together            | McMaster-Carr |
+
+## Custom 3D Printed Parts
+
+| Part Name             | Quantity | Material | Notes                            |
+|------------------------|----------|----------|----------------------------------|
+| Base Frame             | 1        | PLA/ABS  | Holds entire assembly            |
+| Syringe Support        | 1        | PLA/ABS  | Holds syringe barrel flange      |
+| Tip Support            | 1        | PLA/ABS  | Keeps syringe tip aligned        |
+| Motor Mount            | 1        | PLA/ABS  | Holds stepper motor              |
+| Carriage / Plunger Holder | 1     | PLA/ABS  | Moves along lead screw           |
+| Enclosure w/ Sliding Lid | 1      | PLA/ABS  | Protects electronics from spills |
+
 {% include gallery caption="PIP Pliers Gallery" %}
