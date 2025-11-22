@@ -19,6 +19,10 @@ The assignment was to use top-down modeling to design and 3D print a phone mount
 ## Design 
 ### Rotation Mechanism
 The phone mount was required to rotate and lock into at least an upright portrait and landscape position. A detent mechanism (shown below) was used to achieve this function. A detent mechanism is composed of a compression spring, a ball bearing, and a cylindrical post with semi-circular holes around the perimeter. The compression spring holds the ball bearing up to the cylinder such that it fits into the slot in a locked position. When the cylinder is rotated, the ball bearing is pushed outward until it can fit back into a slot and lock again. 
+<p align="center">
+  <img src="/assets/img/Detent Mechanism CAD.png" alt="Detent Mechanism" width="400">
+</p>
+
 ### Phone Holder
 The cylindrical portion of the detent mechanism described above is part of the phone holder component of the mount. This component is essentially a large phone case designed to fit an iPhone 15 in a thin case. It has slots for the volume and power buttons and an indent for the camera on both sides so the phone can be inserted with the holder in different positions. There is a small overhang on the top, bottom, and sides to hold the phone in place. It was filament printed in a flexible material so the phone can be easily inserted. After multiple printed iterations, no tolerance on the phone slot dimensions was used as the phone was not secured in place until the dimensions of the phone slot matched those of the phone case itself. On the back of this phone section is the cylinder portion of the detent mechanism with an hole in the center for an M5 heat sink insert. Information about the Phone Holder component can be found in the 3D Printed Parts table.
 ### Detent Arm
