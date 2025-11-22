@@ -10,7 +10,8 @@ gallery:
   - image_path: assets/img/Phone Mount Use.gif
 ---
 ## Top-Down Modeling
-A description of top-down modeling and how it was leveraged in this assignment. 
+Top-down modeling is a CAD approach where the overall geometry and key relationships of the design are defined first, then each component is built from that shared framework. Instead of making parts separately, every piece references the same master sketches, planes, and dimensions, so the whole assembly stays aligned and updates automatically with changes.
+For this project, this method let all components be modelled inside one controlled layout. The clamp diameter, phone thickness, and mounting geometry all came from the same parameters and referenced each other, which made iteration easier and guaranteed that every part fit together correctly once printed.
 
 ## Project Description
 The assignment was to use top-down modeling to design and 3D print a phone mount for a bike handle. The mount must grip the handlebar tightly to remain secure during travel. Tools and screws can be used to mount the device to the bike, but the phone must come in and out of the holder without the need for tools. The phone must be able to rotate and snap into place in at least portrait and landscape positions without the use of tools. 
@@ -26,10 +27,6 @@ The ball bearing and spring portions of the detent mechanism is attached to the 
 The Bike Attachment component is a clamp with two screw lots for tightening onto the bike handlebars with nuts.This component was modeled separately from the Detent Arm to allow for the attachment to be swapped out for a new part modeled for a different part modeled to attach to something else (ex. car air vent or tripod). The Detent Arm must be inserted into the Bike Attachment component and screwed into place. A tolerance of 0.8 mm was used do the arm slot to allow room for filament printing imprecision and room for the M5 heat sink insert in the arm to fit into the slot. The Attachment part (Bike or any other future option) must be printed from a rigid but not brittle so it can be tightened around the object without cracking or snapping. Information about the Bike Attachment can be found in the 3D Printed Parts table. 
 ### Detent Cover
 The Detent Cover is a small thin disk that attaches to the back of the mount, sandwiching the Detent Arm between itself and the Phone Holder. The Detent Cover prevents the ball bearing and spring in the detent mechanism from becoming undone. The Detent Cover was laser cut from transparent acrylic so the detent mechanism could be visible from the outside, but can be cut or printed from nearly any material. Information about the Detent Cover can be found in the 3D Printed Parts table. 
-
-<p align="center">
-  <img src="/assets/img/Pliers drawing.png" alt="Plier Dimensions" width="400">
-</p>
 
 ## Iterating
 <p align="center">
