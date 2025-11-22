@@ -33,7 +33,7 @@ The Detent Cover is a small thin disk that attaches to the back of the mount, sa
 
 ## Iterating
 <p align="center">
-  <img src="/assets/img/Plier Iterations.jpg" alt="Plier Iterations" width="400">
+  <img src="/assets/img/Phone Mount CAD Iterations.png" alt="Phone Mount Iterations" width="400">
 </p>
 The first iteration (left) of the pliers was largely successful, but the dovetail joints were not functional and required glue. The dovetails were too small very fine details and a tolerance of 0.2 mm was used. This resulted in very small and loose joints that did not hold the pliers together without glue. When fully glued together, Iteration 1 worked perfectly, indicating the overall design was promising.
 
@@ -43,34 +43,24 @@ The third iteration (right) was the final version of the pliers. The dovetails o
 
 ## Off-the-Shelf Parts
 
-| Part Name            | Quantity | Function                                           | Source          |
-|----------------------|----------|----------------------------------------------------|-----------------|
-| Arduino Uno          | 1        | Microcontroller to run pump logic and interface    | Arduino.cc / Amazon |
-| A4988 Stepper Driver | 1        | Drives stepper motor with microstepping control    | Pololu / Amazon |
-| NEMA 17 Stepper Motor| 1        | Rotates lead screw to move syringe plunger         | Amazon / Adafruit |
-| 12V Power Supply     | 1        | Provides motor and electronics power               | Amazon |
-| Lead Screw (8mm) + Nut | 1     | Converts motor rotation to linear motion           | McMaster-Carr / Amazon |
-| Linear Rod (smooth)  | 1        | Prevents carriage rotation, stabilizes motion      | McMaster-Carr |
-| 608ZZ Bearings       | 2        | Supports rotation of the lead screw                | Amazon |
-| Limit Switch         | 1        | Detects empty syringe, stops motor                 | Amazon |
-| Potentiometer (dial) | 1        | Adjusts flow rate manually                         | Amazon |
-| Push Buttons         | 3        | Start/stop and manual forward/reverse control      | Amazon |
-| LED (RGB or 3-color) | 1        | Status indicator (green, yellow, red)              | Amazon |
-| Heat Shrink Tubing   | Assorted | Protects soldered joints from fluid exposure       | Amazon |
-| Jumper Wires         | Assorted | Connects Arduino to breadboard and components      | Amazon |
-| Breadboard           | 1        | Prototyping circuit connections                    | Amazon |
-| Syringes (20 mL & 5 mL) | 2    | Holds and dispenses fluid at controlled rate       | Local supplier |
-| Fasteners (M3 screws + nuts) | Assorted | Secures assembly parts together            | McMaster-Carr |
+| Part Name            | Part Name            | Quantity | Function                                  | Source          |
+|----------------------|----------------------|----------|--------------------------------------------|-----------------|
+
+| 8mm Ball Bearing         | 1        | Detent mechanism                 | McMaster-Carr|
+| 20mm Extension Spring | 1        | Detent mechanism                         | McMaster-Carr|
+| M5 Heat Set Inserts       | 2        | For screws in detent and arm      | McMaster-Carr|
+| M5 Screws | 4        | Detent, arm, and attachment clamp             | General/McMaster-Carr|
+| M5 Nuts | 5        | Detent arm and attachment clamp             |General/McMaster-Carr |
+
 
 ## Custom 3D Printed Parts
 
 | Part Name             | Quantity | Material | Notes                            |
 |------------------------|----------|----------|----------------------------------|
-| Base Frame             | 1        | PLA/ABS  | Holds entire assembly            |
-| Syringe Support        | 1        | PLA/ABS  | Holds syringe barrel flange      |
-| Tip Support            | 1        | PLA/ABS  | Keeps syringe tip aligned        |
-| Motor Mount            | 1        | PLA/ABS  | Holds stepper motor              |
-| Carriage / Plunger Holder | 1     | PLA/ABS  | Moves along lead screw           |
-| Enclosure w/ Sliding Lid | 1      | PLA/ABS  | Protects electronics from spills |
+| Phone Holder             | 1        | TPU  | Large phone case with detent cylinder on back            |
+| Detent Arm        | 1        | ABS/PETG  | Connects phone and modular attachment clamp      |
+| Bike Attachment            | 1        | ABS/PETG  | Bike handlebar attachment clamp        |
+| Detent Cover            | 1        | Acrylic  | Keeps spring and ball bearing in place              |
+
 
 {% include gallery caption="PIP Pliers Gallery" %}
