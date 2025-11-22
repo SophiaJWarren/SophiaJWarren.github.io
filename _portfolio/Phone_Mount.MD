@@ -18,6 +18,7 @@ The assignment was to use top-down modeling to design and 3D print a phone mount
 
 ## Design 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281129ad2b80fb82f453?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ### Rotation Mechanism
 The phone mount was required to rotate and lock into at least an upright portrait and landscape position. A detent mechanism (shown below) was used to achieve this function. A detent mechanism is composed of a compression spring, a ball bearing, and a cylindrical post with semi-circular holes around the perimeter. The compression spring holds the ball bearing up to the cylinder such that it fits into the slot in a locked position. When the cylinder is rotated, the ball bearing is pushed outward until it can fit back into a slot and lock again. 
 <p align="center">
