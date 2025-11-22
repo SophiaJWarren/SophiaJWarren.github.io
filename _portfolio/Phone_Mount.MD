@@ -12,9 +12,8 @@ gallery:
 ## Top-Down Modeling
 Top-down modeling is a CAD approach where the overall geometry and key relationships of the design are defined first, then each component is built from that shared framework. Instead of making parts separately, every piece references the same master sketches, planes, and dimensions, so the whole assembly stays aligned and updates automatically with changes.
 For this project, this method let all components be modelled inside one controlled layout. The clamp diameter, phone thickness, and mounting geometry all came from the same parameters and referenced each other, which made iteration easier and guaranteed that every part fit together correctly once printed.
-<p float="left">
-  <img src="/assets/img/Phone Mount CAD.png" width="45%" />
-  <img src="/assets/img/Phone Mount Back CAD.png" width="45%" />
+<p align="center">
+  <img src="/assets/img/Phone Mount Iso Views.png" alt="Phone Mount Iterations" width="400">
 </p>
 ## Project Description
 The assignment was to use top-down modeling to design and 3D print a phone mount for a bike handle. The mount must grip the handlebar tightly to remain secure during travel. Tools and screws can be used to mount the device to the bike, but the phone must come in and out of the holder without the need for tools. The phone must be able to rotate and snap into place in at least portrait and landscape positions without the use of tools. 
