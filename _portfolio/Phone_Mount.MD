@@ -43,15 +43,14 @@ The third iteration (right) was the final version of the pliers. The dovetails o
 
 ## Off-the-Shelf Parts
 
-| Part Name            | Part Name            | Quantity | Function                                  | Source          |
-|----------------------|----------------------|----------|--------------------------------------------|-----------------|
+| Part Name            | Quantity | Function                                  | Source          |
+|----------------------|----------|--------------------------------------------|-----------------|
 
 | 8mm Ball Bearing         | 1        | Detent mechanism                 | McMaster-Carr|
 | 20mm Extension Spring | 1        | Detent mechanism                         | McMaster-Carr|
 | M5 Heat Set Inserts       | 2        | For screws in detent and arm      | McMaster-Carr|
 | M5 Screws | 4        | Detent, arm, and attachment clamp             | General/McMaster-Carr|
 | M5 Nuts | 5        | Detent arm and attachment clamp             |General/McMaster-Carr |
-
 
 ## Custom 3D Printed Parts
 
