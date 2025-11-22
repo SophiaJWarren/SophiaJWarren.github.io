@@ -54,19 +54,12 @@ The third iteration (right) was the final version of the pliers. The dovetails o
 
 ## Custom 3D Printed Parts
 
-| Part Name             | Quantity | Material | Notes                            |
-|------------------------|----------|----------|----------------------------------|
-| Phone Holder             | 1        | TPU  | Large phone case with detent cylinder on back            |
-| Detent Arm        | 1        | ABS/PETG  | Connects phone and modular attachment clamp      |
-| Bike Attachment            | 1        | ABS/PETG  | Bike handlebar attachment clamp        |
-| Detent Cover            | 1        | Acrylic  | Keeps spring and ball bearing in place              |
-
 | Part             | Name | Material | Notes                            |
 |------------------------|----------|----------|----------------------------------|
-|  <img src="/assets/img/Phone Holder Iso.png" width="150"> | Phone Holder        | TPU  | Large phone case with detent cylinder on back            |
-|  <img src="/assets/img/Mount Arm Iso.png" width="150"> | Detent Arm        | ABS/PETG  | Connects phone and modular attachment clamp      |
-|  <img src="/assets/img/Bike Attachment Iso.png" width="150">  | Bike Attachment        | ABS/PETG  | Bike handlebar attachment clamp        |
-|  <img src="/assets/img/Detent Cover Iso.png" width="150">  | Detent Cover        | Acrylic  | Keeps spring and ball bearing in place              |
+|  <img src="/assets/img/Phone Holder Iso.png" width="100"> | Phone Holder        | TPU  | Large phone case with detent cylinder on back            |
+|  <img src="/assets/img/Mount Arm Iso.png" width="100"> | Detent Arm        | ABS/PETG  | Connects phone and modular attachment clamp      |
+|  <img src="/assets/img/Bike Attachment Iso.png" width="100">  | Bike Attachment        | ABS/PETG  | Bike handlebar attachment clamp        |
+|  <img src="/assets/img/Detent Cover Iso.png" width="100">  | Detent Cover        | Acrylic  | Keeps spring and ball bearing in place              |
 
 
 {% include gallery caption="PIP Pliers Gallery" %}
