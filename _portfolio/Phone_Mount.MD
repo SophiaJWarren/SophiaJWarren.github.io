@@ -9,43 +9,23 @@ gallery:
   - image_path: assets/img/Phone Mount CAD Iterations.png 
   - image_path: assets/img/Phone Mount Use.gif
 ---
-## Print-in-Place 
-Print-in-place (PIP) parts are 3D-printed as fully assembled, functional mechanisms where joints, hinges, and links come straight off the printer ready to move. No screws, glue, or tools required. Clever clearances between layers create motion where you’d normally expect an assembly.
-
-PIP success depends on pairing materials that stick together just enough to survive printing but still move freely afterward. Common pairings include:
-* PLA + TPU (95A) – strong handles with flexible hinges or springs.
-* PETG + TPU – higher temperature resistance, good for functional parts.
-* Nylon + TPU – very durable but can be tricky to bond cleanly.
-
-Some examples of PIP include 
-* Mechanical toys and fidget mechanisms that print in one piece and articulate immediately.
-* Prosthetic hands and grippers where fully printed hinges reduce cost and assembly time.
-* Robotic linkages and valves that use printed flexures for repeatable motion.
+## Top-Down Modeling
+A description of top-down modeling and how it was leveraged in this assignment. 
 
 ## Project Description
-This project explores this idea by designing needle-nose pliers that can grip and lift tiny through-hole resistors. Two materials are used, TPU and PLA, to form a pair of grippers that flex and return to position when released. Each pair of pliers must be usable immediately off the printer (no glue, tape, screw, etc,) and able to pick up and move a through-hole resistor in testing.
-
+The assignment was to use top-down modeling to design and 3D print a phone mount for a bike handle. The mount must grip the handlebar tightly to remain secure during travel. Tools and screws can be used to mount the device to the bike, but the phone must come in and out of the holder without the need for tools. The phone must be able to rotate and snap into place in at least portrait and landscape positions without the use of tools. 
 
 ## Design 
-### Concept Overview
-Rather than a traditional squeeze mechanism, the pliers employ a trigger-pull mechanism to close the jaws of the pliers because a single finger motion can be easier to repeat continuously than a full hand-squeeze. A rigid handle supports the pliers with a rigid trigger suspended in the center. Flexible jaws attach the handle and trigger such that when the trigger is pulled, the nose of the jaws bend inward and grip the item. Specific part designs are outlined in the Part Details section.
-<p align="center">
-  <img src="/assets/img/Pliers GIF.GIF" alt="Working Pliers" width="400">
-</p>
-### CAD Modelling
-The pliers were designed in Fusion 360 using parameterized dimensions for efficient iteration. The pliers are symmetrical, making mirroring an effective modeling tool. Half of the design was sketched, and then the 3 parts were extruded as independent bodies so they could be printed individually in the correct material. The Fusion 360 mirror function does not recognize parameters when used in sketches (2D), so the parts were mirrored in 3D to complete the pliers. There is a total of 3 part types (handle, trigger, & jaw), creating a total of 4 bodies (handle, trigger, & 2 jaws). The pliers were 10 mm thick in each part. 
-
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ac51f917b821705a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-### Printing Settings
-The pliers used two materials: PLA for the handle and trigger, and TPU 95A for the jaws. The PLA parts were printed with a 0.4 mm nozzle and the TPU parts were printed with a 0.6 mm nozzle. This design did contain a spring grid component, so all other settings were left to default.
-### Part Details
-###### Handle:
-The handle is rigid (PLA) and designed to be compact, fitting comfortably in hand. The size of the handle was initially estimated from holding a computer mouse in the position the pliers would be held to assess how comfortably it fit in a hand without overextending or clenching. The result was a width of ~45 mm and a length of ~63 mm. The handle is U-shaped, with a round bottom to avoid sharp corners poking the user. The tips of the handles have the dovetails to interlock with the jaws.
-###### Trigger:
-The trigger is rigid (PLA) and designed to comfortably fit the index finger (~20 mm diameter). The trigger is circular with a thickness of ~4 mm. The top of the trigger has two dovetails, one for each jaw. There is a ~10 mm gap between where the two jaws attach to allow the jaws to pinch at the nose without colliding elsewhere. 
-###### Jaws:
-The jaws are flexible (TPU 95 A) and attached to the tips of the handle and the center of the trigger. They are at a 15-degree angle from the center axis of the handles and are ~10 mm apart at the base (where they attach to the trigger) so the nose closes with only ~10 mm of motion at the trigger. They are V-shaped with each side ~3.5 mm thick. There are three small stripes of material spaced out (~0.08 mm thick, ~10 mm apart) to prevent deformation, giving the jaws an A-shape. 
+### Rotation Mechanism
+The phone mount was required to rotate and lock into at least an upright portrait and landscape position. A detent mechanism (shown below) was used to achieve this function. A detent mechanism is composed of a compression spring, a ball bearing, and a cylindrical post with semi-circular holes around the perimeter. The compression spring holds the ball bearing up to the cylinder such that it fits into the slot in a locked position. When the cylinder is rotated, the ball bearing is pushed outward until it can fit back into a slot and lock again. 
+### Phone Holder
+The cylindrical portion of the detent mechanism described above is part of the phone holder component of the mount. This component is essentially a large phone case designed to fit an iPhone 15 in a thin case. It has slots for the volume and power buttons and an indent for the camera on both sides so the phone can be inserted with the holder in different positions. There is a small overhang on the top, bottom, and sides to hold the phone in place. It was filament printed in a flexible material so the phone can be easily inserted. After multiple printed iterations, no tolerance on the phone slot dimensions was used as the phone was not secured in place until the dimensions of the phone slot matched those of the phone case itself. On the back of this phone section is the cylinder portion of the detent mechanism with an hole in the center for an M5 heat sink insert. Information about the Phone Holder component can be found in the 3D Printed Parts table.
+### Detent Arm
+The ball bearing and spring portions of the detent mechanism is attached to the Detent Arm component. The detent arm is a rectangular block with a hole for the detent cylinder. A tolerance of 0.5 mm was used to ensure the components would fit together after filament printing. The detent block has a slot with a small post for the spring and ball bearing to fit into. Attached to the block is the arm that is inserted into the Bike Attachment. There is a hole for a M5 heat sink insert at the bottom of this arm so the Detent Arm can be screwed tightly into the Bike Attachment. The Detent Arm is printed from a rigid material to hold the Phone Holder upright. Information about the Detent Arm component can be found in the 3D Printed Parts table.
+### Bike Attachment
+The Bike Attachment component is a clamp with two screw lots for tightening onto the bike handlebars with nuts.This component was modeled separately from the Detent Arm to allow for the attachment to be swapped out for a new part modeled for a different part modeled to attach to something else (ex. car air vent or tripod). The Detent Arm must be inserted into the Bike Attachment component and screwed into place. A tolerance of 0.8 mm was used do the arm slot to allow room for filament printing imprecision and room for the M5 heat sink insert in the arm to fit into the slot. The Attachment part (Bike or any other future option) must be printed from a rigid but not brittle so it can be tightened around the object without cracking or snapping. Information about the Bike Attachment can be found in the 3D Printed Parts table. 
+### Detent Cover
+The Detent Cover is a small thin disk that attaches to the back of the mount, sandwiching the Detent Arm between itself and the Phone Holder. The Detent Cover prevents the ball bearing and spring in the detent mechanism from becoming undone. The Detent Cover was laser cut from transparent acrylic so the detent mechanism could be visible from the outside, but can be cut or printed from nearly any material. Information about the Detent Cover can be found in the 3D Printed Parts table. 
 
 <p align="center">
   <img src="/assets/img/Pliers drawing.png" alt="Plier Dimensions" width="400">
