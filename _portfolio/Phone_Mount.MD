@@ -50,13 +50,14 @@ Version 2 improved significantly on the first iteration and clearly displayed th
 Version 3 was the final iteration of the Phone Mount as it resolved all of the issues in Versions 1 and 2. The Phone Holder was made slimmer and tighter, the overhang was made larger, the button slots were shifted, and indents for the camera were added. The phone and phone case were held securely in the Phone Holder. The arm cross-section was changed from circular to square, and the tolerance in the slot in the Bike Attachment was increased to fit the heat set insert. The fillets on the Bike Attachment were also removed to make the removal of support material easier. 
 
 ## Assembly
-Insert M5 heat set inserts into the detent cylinder on the Phone Holder and Detent Arm
-Insert Detent Arm into Bike Attachment and tighten with M5 screw an nut
-Place Detent Arm around the detent cylinder on the Phone Holder
-Place spring and ball bearing inside detent assembly
-Place Detent Cover on top of Detent ARm-Phone Holder Assembly and screw together
-Slide Bike Attachment onto handlebars and tighten using M5 screws and nuts
-Insert phone into Phone Holder 
+ 1. Insert M5 heat set inserts into the detent cylinder on the Phone Holder and Detent Arm
+ 2. Insert Detent Arm into Bike Attachment and tighten with M5 screw and nut
+ 3. Place Detent Arm around the detent cylinder on the Phone Holder
+ 4. Place spring and ball bearing inside detent assembly
+ 5. Place Detent Cover on top of Detent ARm-Phone Holder Assembly and screw together
+ 6. Slide Bike Attachment onto handlebars and tighten using M5 screws and nuts
+ 7. Insert phone into Phone Holder
+
 
 ## Off-the-Shelf Parts
 
