@@ -15,6 +15,9 @@ For this project, this method let all components be modelled inside one controll
 
 ## Project Description
 The assignment was to use top-down modeling to design and 3D print a phone mount for a bike handle. The mount must grip the handlebar tightly to remain secure during travel. Tools and screws can be used to mount the device to the bike, but the phone must come in and out of the holder without the need for tools. The phone must be able to rotate and snap into place in at least portrait and landscape positions without the use of tools. 
+<p align="center">
+  <img src="/assets/img/Phone Mount Use.gif" alt="Detent Mechanism" width="300">
+</p>
 
 ## Design 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281129ad2b80fb82f453?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
