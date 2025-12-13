@@ -70,6 +70,8 @@ For a previous project, I used an array of load cells to measure my own weight d
 </p>
 Barefoot, the majority of my weight is on my heel, but in heels, the majority of my weight is on the ball/toe of my foot. To account for the impact from walking, the conservative estimate used was twice the body weight. The distribution applied was 60% on the toe, 15% on the arch, and 25% on the heel. There is still substantial weight on the heel in the standing study, which was accounted for using moments. 
 
+While vertical forces account for body weight and impact during walking, they do not fully capture how a high-heeled shoe is loaded in real use. Because the foot is elevated and offset from the heel attachment, significant bending and twisting occur during each step. These effects were represented using applied moments in addition to vertical and shear forces.
+
 ## Generated Designs
 ### Aluminum ALSi10Mg Outcome
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281114564efc64ca87ca?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
