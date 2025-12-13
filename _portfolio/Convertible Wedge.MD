@@ -70,7 +70,11 @@ For a previous project, I used an array of load cells to measure my own weight d
 </p>
 Barefoot, the majority of my weight is on my heel, but in heels, the majority of my weight is on the ball/toe of my foot. To account for the impact from walking, the conservative estimate used was twice the body weight. The distribution applied was 60% on the toe, 15% on the arch, and 25% on the heel. There is still substantial weight on the heel in the standing study, which was accounted for using moments. 
 
+A sheer force was placed on the toe section of the Arch to account for the foot sliding around in the shoe, a very common discomfort in high heels. It also helps account for the force off pushing off when taking a step. It is relevant to note that most people have a very different gait when wearing high heels than they do when they walk in flat shoes. In heels, people tend to avoid any horizontal loading, but these sheer forces and moments are accounted for in the design to be conservative 
+
 While vertical forces account for body weight and impact during walking, they do not fully capture how a high-heeled shoe is loaded in real use. Because the foot is elevated and offset from the heel attachment, significant bending and twisting occur during each step. These effects were represented using applied moments in addition to vertical and shear forces.
+
+A torsional moment was also applied to represent twisting of the shoe during gait. During normal walking, the foot does not load symmetrically, and slight inward or outward rotation occurs as weight transfers across the foot. This twisting action produces torque through the heel attachment and wedge structure. A moderate torsional moment was applied about the vertical axis of the mechanism to represent this effect without dominating the solution.
 
 ## Generated Designs
 ### Aluminum ALSi10Mg Outcome
