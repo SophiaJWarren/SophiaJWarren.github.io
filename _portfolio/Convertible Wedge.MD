@@ -75,11 +75,15 @@ The ALSi10Mg outcome
 ### Nylon 12 Outcome 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028117a698f46e7f35c69?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-## Filament Printed Prototype
+## Iterating
+### Filament Printed Prototype
 <p align="center">
-  <img src="/assets/img/Fillament Wedge on Shoe.png" alt="Fillament Printed Final Prototype" width="300">
-
+  <img src="/assets/img/Fillament Wedge on Shoe.png" alt="Filament Printed Final Prototype" width="300">
+The wedge prototype was filament printed from PLA. The part was largely a success, with the exception of the curves at the front of the foot. Roughly at the midpoint of the Arch, the wedge diverges from the sole, indicating that the arc and curve measurements were off. This was to be expected considering the complexity of the anatomical curves. The back of the wedge was fitted perfectly. The arch and outline of the wedge lined up closely with the sole. The mechanism also worked perfectly despite the lack of release button. As shown below, the heel twisted and locked in position just like the commercially available heels. The first prototype of the heel was filament printed using PLA. The curve on the front half of the shoe (arch and curve in the toe) was not well matched to the shoe as the wedge and sandal diverge roughly at the arch’s midpoint. The back half of the wedge fit the shoe very closely, with the arch against the sandal and the outline of the curve in the back of the foot lining up very well. The mechanism worked perfectly, smoothly locking the wedge into the sandal as shown below.
 <p align="center">
   <img src="/assets/img/Wedge Mechanism GIF.gif " alt="Working Mechanism" width="300">
+### Next Steps
+The first prototype completed the assignment, so the next steps will be for personal use. Rather than a single wedge heel all connected at the heel mechanism, the second iteration will be comprised of an individual 5” block heel and a 1” toe platform. The block heel will have a flared base for stability and will be powder printed from Nylon 12. The toe platform will likely be filament printed from TPU for cushion on the most heavily loaded and painful part of the shoe. A thin layer of TPU will also be attached to the bottom of the block heel to cushion impact from walking and make the shoe more durable so it can withstand the same loads with less material. 
+## Future Iterating 
 
 {% include gallery caption="Generative Design Wedge Prototype Gallery" %}
