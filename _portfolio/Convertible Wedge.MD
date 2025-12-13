@@ -1,6 +1,6 @@
 ---
 title: "Convertible Wedge Generative Design Project"
-excerpt: "Platform wedge attachment for Pashion Footwear sandal using generative design.”
+excerpt: "Platform wedge attachment for Pashion Footwear sandal using generative design."
 header:
   image: /assets/img/Fillament Wedge on Shoe.png
   teaser: /assets/img/Fillament Wedge on Shoe.png
