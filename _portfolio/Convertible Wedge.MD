@@ -29,7 +29,7 @@ The assignment was to use generative design to optimize a part of your choosing.
 ### Preserve Bodies
 Preserve bodies are objects with important geometry that the generative design software is told not to alter in any way. 
 <p align="center">
-  <img src="/assets/img/Preserve Bodies.png" alt="CAD Preserve Bodies" width="300">
+  <img src="/assets/img/Preserve Bodies.png" alt="CAD Preserve Bodies" width="400">
 </p>
 #### Mechanism
 The geometry of the mechanism that connects different heel attachments to a shoe is very particular and must be kept completely faithful to the geometry of that of the commercial heels. The heel is inserted at a 90° angle and is turned towards its functional position until it clicks into place. Current Pashion heels include a release button to more securely lock the heel into place, but this was omitted in this design to comply with the assignment requirements. 
@@ -40,7 +40,7 @@ As this design is a wedge heel that spans the length of the shoe, the arch of th
 ### Obstacle Bodies
 Obstacle bodies represent areas that the generative design tool cannot add material. These are represented in transparent material below so the design would still be visible. 
 <p align="center">
-  <img src="/assets/img/Obstacle Bodies.png" alt="CAD Obstacle Bodies" width="300">
+  <img src="/assets/img/Obstacle Bodies.png" alt="CAD Obstacle Bodies" width="400">
 </p>
 #### Ground
 The generative design tool was told not to generate any material below the Base to ensure the wedge would lie flat on the ground beneath it.
@@ -49,7 +49,7 @@ The space above the Arch and surrounding the Mechanism needed to be reserved for
 ### Starting Shape
 Starting shapes are bodies that the generative design tool is free to alter. 
 <p align="center">
-  <img src="/assets/img/Starting Shapes.png" alt="CAD Starting Shapes" width="300">
+  <img src="/assets/img/Starting Shapes.png" alt="CAD Starting Shapes" width="400">
 </p>
 #### Wedge
 The lofted volume between the Base and Arch created the shape of the Wedge itself, which the generative design tool was free to add or remove material from to create a part that could withstand the applied load using minimal mass. 
