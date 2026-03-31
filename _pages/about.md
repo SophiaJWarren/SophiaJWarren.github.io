@@ -12,10 +12,10 @@ title: "About Sophia Warren"
 
 ## Technical Skills
 
-* Prototypin
+* Prototyping
   * 3D Printing, Laser Cutting, Instrumentation, Welding
 * CAD design
-  * SolidWorks,Fusion360, AutoCAD
+  * SolidWorks, Fusion360, AutoCAD
 * Programming
   * Python, Arduino, MATLAB
 * Math
