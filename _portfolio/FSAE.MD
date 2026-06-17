@@ -42,4 +42,4 @@ To address these constraints, a design with the following features was developed
 All fitting within the available space between components and chassis beams. 
 
 
-{% include gallery caption="FSAE Ongoing Capstone Image Gallery." %}
+{% include gallery caption="FSAE Cooling Capstone Image Gallery." %}
