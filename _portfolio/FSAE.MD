@@ -6,8 +6,14 @@ header:
   teaser: /assets/img/VROOM Logo (words).png
 gallery:
   - url: /assets/img/FSAE 2024 Design.png
-    image_path: assets/img/FSAE 2024 Design.png
-    alt: "Previous IC Car Design"
+    image_path: assets/img/Design Day Poster.png
+    alt: "Design Day Poster"
+  - url: /assets/img/2026 Car.jpg
+    image_path: assets/img/2026 Car.jpg
+    alt: "Final Car 2026"
+  - url: /assets/img/Team Photo.jpg
+    image_path: assets/img/Team Photo.jpg
+    alt: "FSAE Team Photo"
 ---
 Vanderbilt University's 2026 Formula SAE team decided to reconfigure the IC car design from two external radiators on either side of the car to one larger centralized radiator. The Vanderbilt Radiator Optimization Operation for Motorsports (VROOM) Capstone team is tasked with designing a ducting system to improve cooling in this new configuration.
 
