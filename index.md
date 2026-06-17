@@ -19,7 +19,7 @@ feature_row:
     excerpt: "Simulates knee flexion and extension for TKA implant testing."
   - image_path: assets/img/VROOM Logo (words).png
     title: "Formula SAE Capstone Project"
-    excerpt: "Starting September 2025: Improving cooling for new radiator placement in the Vanderbilt University Formula SAE car."
+    excerpt: "Improving cooling for new radiator placement in the Vanderbilt University Formula SAE car."
 ---
 
 {% include feature_row %}
