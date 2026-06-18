@@ -19,7 +19,7 @@ Vanderbilt University's 2026 Formula SAE team decided to reconfigure the IC car 
 
 ## Problem
 <p align="center">
-  <img src="/assets/img/Problem Statement.png" alt="Radiator Transition" width="400">
+  <img src="/assets/img/Problem Statement.png" alt="Radiator Transition" width="500">
 </p>
 * Direct sufficient airflow through the radiator for engine cooling
 * Keep coolant temperatures within acceptable limits (< 212°F)
@@ -43,7 +43,7 @@ All fitting within the available space between components and chassis beams.
 
 ## Manufacturing
 <p align="center">
-  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="500">
+  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="700">
 </p>
 
 ## Testing
