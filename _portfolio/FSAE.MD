@@ -42,7 +42,9 @@ To address these constraints, a design with the following features was developed
 All fitting within the available space between components and chassis beams. 
 
 ## Manufacturing
-
+<p align="center">
+  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="800">
+</p>
 
 ## Testing
 <p align="center">
