@@ -43,12 +43,12 @@ All fitting within the available space between components and chassis beams.
 
 ## Manufacturing
 <p align="center">
-  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="400">
+  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="500">
 </p>
 
 ## Testing
 <p align="center">
-  <img src="/assets/img/Isolated Testing Setup.png" alt="Isolated Testing Setup" width="400">
+  <img src="/assets/img/Isolated Testing Setup.png" alt="Isolated Testing Setup" width="600">
 </p>
 
 {% include gallery caption="FSAE Cooling Capstone Image Gallery." %}
