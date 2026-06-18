@@ -43,7 +43,7 @@ All fitting within the available space between components and chassis beams.
 
 ## Manufacturing
 <p align="center">
-  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="700">
+  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="800">
 </p>
 
 ## Testing
