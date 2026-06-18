@@ -41,5 +41,14 @@ To address these constraints, a design with the following features was developed
 * Strategic variations in duct area and volume to utilize the Venturi effect to pull air through the radiator face, increasing overall heat transfer coefficient.
 All fitting within the available space between components and chassis beams. 
 
+## Manufacturing
+<p align="center">
+  <img src="/assets/img/Manufacturing Flowchart.png" alt="Manufacturing Process" width="400">
+</p>
+
+## Testing
+<p align="center">
+  <img src="/assets/img/Isolated Testing Setup.png" alt="Isolated Testing Setup" width="400">
+</p>
 
 {% include gallery caption="FSAE Cooling Capstone Image Gallery." %}
